@@ -1,7 +1,6 @@
 $(document).ready(function () {
     var menuIcon = $('#menu-icon');
     var navbar = $('.navbar');
-    var perfil = false;
 
     var isPhone = window.matchMedia("(max-width: 768px)");
 
@@ -169,7 +168,6 @@ $(document).ready(function () {
                     window.location.href = "view/control.html";
                 }
             });
-            perfil = true;
         } else {
             Swal.fire({
                 title: "",
