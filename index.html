@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo Virtual</title>
+    <link rel="shortcut icon" href="img/shopify.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="" class="logo">Catalogo <span>Virtual</span></a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <ul class="links">
+                <li class="menu">
+                    <a href="#" id="telefonos">Telefonos <i class="fa-solid fa-mobile-screen"></i></a>
+                    <ul class="sub-menu" id="sub-menu">
+                        <li data-page="telefonos" class="pages">Todos</li>
+                        <li data-page="telefonos" data-tel="xiaomi" class="pages">Xiaomi</li>
+                        <li data-page="telefonos" data-tel="apple" class="pages">Apple Iphone</li>
+                        <li data-page="telefonos" data-tel="honor" class="pages">Honor</li>
+                        <li data-page="telefonos" data-tel="motorrola" class="pages">Motorrola</li>
+                        <li data-page="telefonos" data-tel="oppo" class="pages">Oppo</li>
+                        <li data-page="telefonos" data-tel="samsung" class="pages">Samsung</li>
+                        <li data-page="telefonos" data-tel="tecno" class="pages">Tecno</li>
+                        <li data-page="telefonos" data-tel="vivo" class="pages">Vivo</li>
+                    </ul>
+                </li>
+                <li><a href="#" class="pages" data-page="computadores">Computadores <i class="fa-solid fa-laptop"></i></a></li>
+                <li><a href="#" class="pages" data-page="televisores">Televisores <i class="fa-solid fa-tv"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main" id="main">
+        <div class="card">
+            <div class="card-image-container">
+                <img src="img/img.jpg" alt="">
+            </div>
+            <p class="card-title">Dino</p>
+        </div>
+
+        <div class="card">
+            <div class="card-image-container">
+                <img src="img/img2.jpg" alt="">
+            </div>
+            <p class="card-title">Pac Man</p>
+        </div>
+
+        <div class="card">
+            <div class="card-image-container">
+                <img src="img/img3.jpg" alt="">
+            </div>
+            <p class="card-title">Mapa Mundi</p>
+        </div>
+
+        <div class="card">
+            <div class="card-image-container">
+                <img src="img/img4.jpg" alt="">
+            </div>
+            <p class="card-title">Real Madrid</p>
+        </div>
+
+        <div class="card">
+            <div class="card-image-container">
+                <img src="img/img5.jpg" alt="">
+            </div>
+            <p class="card-title">Shogun</p>
+        </div>
+
+        <div class="card">
+            <div class="card-image-container">
+                <img src="img/img6.jpg" alt="">
+            </div>
+            <p class="card-title">Call Of Duty</p>
+        </div>
+
+    </main>
+
+    <!-- Whatsapp -->
+    <a id="wpp" href="https://wa.me/573125308417/?text=¡Hola!%20Quiero%20adquirir%20un%20producto.%20¿Cómo%20puedo%20hacerlo?" class="wpp"><i class="fab fa-whatsapp"></i></a>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
